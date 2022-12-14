@@ -16,11 +16,14 @@
 package com.example.arcoretestapp.common.helpers
 
 import android.app.Activity
+import android.graphics.BitmapFactory
 import android.widget.Toast
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.example.arcoretestapp.java.common.helpers.CameraPermissionHelper
 import com.google.ar.core.ArCoreApk
+import com.google.ar.core.AugmentedImageDatabase
+import com.google.ar.core.Config
 import com.google.ar.core.Session
 import com.google.ar.core.exceptions.CameraNotAvailableException
 

@@ -30,9 +30,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
+
 
     // ARCore (Google Play Services for AR) library.
     implementation 'com.google.ar:core:1.31.0'

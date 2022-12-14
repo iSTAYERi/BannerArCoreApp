@@ -15,6 +15,7 @@
  */
 package com.example.arcoretestapp.helloar
 
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -28,6 +29,7 @@ import com.example.arcoretestapp.java.common.helpers.InstantPlacementSettings
 import com.example.arcoretestapp.java.common.samplerender.SampleRender
 import com.example.arcoretestapp.common.helpers.ARCoreSessionLifecycleHelper
 import com.example.arcoretestapp.java.common.helpers.CameraPermissionHelper
+import com.google.ar.core.AugmentedImageDatabase
 import com.google.ar.core.examples.kotlin.helloar.HelloArRenderer
 import com.google.ar.core.examples.kotlin.helloar.HelloArView
 import com.google.ar.core.exceptions.CameraNotAvailableException
